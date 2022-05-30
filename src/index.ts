@@ -5,7 +5,7 @@ let menores: number = 0;
 let mayores: number = 0;
 
 function Edades(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * (max - min)) + min;//los de 40 entran???
 }
 
 for (personas = 0; personas < 270; personas++) {
